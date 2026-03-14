@@ -26,8 +26,14 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+      The game is supposed to check whether the user successfully guessed the secret number and also keep track of how many attempts it took and the score (points earned).
+
 - [ ] Detail which bugs you found.
+      1. I found that the message shown to the user was wrong. When the guess was less than the secret number, it said to enter lower number. Same thing happened when the guess was higher than the secret number.
+      2. Another bug was that the history and number of attempts were not reset after the user clicks on "New Game".
+
 - [ ] Explain what fixes you applied.
+      I used AI as a collaborator to help me fix both bugs. I asked it refactor the check_guess function and the new game logic. For the 1st bug, AI did it correctly. But for the 2nd bug, the AI was wrong. So, I checked the code it suggested and asked it to make the specific changes I noticed. This is detailedly mentioned in the reflection.md file.
 
 ## 📸 Demo
 
