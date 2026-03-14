@@ -39,11 +39,13 @@ I used AI as a collaborator to help me fix both bugs. I asked it refactor the ch
 
 - [ ] 
 Check_Guess Function Logic:
+---
    ![alt text](image.png)
    ![alt text](image-1.png)
    ![alt text](image-2.png)
 
 Reset Game Logic:
+---
    ![alt text](image-3.png)
 
 ## 🚀 Stretch Features
